@@ -3,24 +3,34 @@ owner: fanqianghub # Your GitHub organization or username, where this repository
 repo: nodestatus # The name of this repository
 
 sites:
-  - name: 导航 - fanqianghub.com
-    url: https://fanqianghub.com
-  - name: 论坛 - forum.fanqianghub.com
-    url: https://forum.fanqianghub.com
-  - name: 博客 - blog.fanqianghub.com
-    url: https://blog.fanqianghub.com
+  - name: 狮云 - 网站
+    url: https://app.cloudlion.me
+  - name: 狮云 - 博客
+    url: https://cloudlion.me
+  - name: 入口节点 - 上海移动
+    check: "tcp-ping"
+    url: https://shyd.zz.cloudfast.vip
+    port: 14899
+  - name: 入口节点 - 广州移动
+    check: "tcp-ping"
+    url: https://gzyd.zz.cloudfast.vip
+    port: 34373
+  - name: 入口节点 - 北京联通
+    check: "tcp-ping"
+    url: https://bjlt.zz.cloudfast.vip
+    port: 10138
 
 status-website:
   theme: light
   cname: nodestatus.fanqianghub.com
-  logoUrl: https://fanqianghub.com/wp-content/uploads/2023/10/fqhub_logo_icon_round.png
+  logoUrl: https://fanqianghub.com/wp-content/uploads/2023/10/cloudlion.png
   # baseUrl: /your-repo-name
-  name: 翻墙中心 - 服务状态
-  introTitle: "**翻墙中心**网站与服务状态监控"
+  name: 狮云 - 服务状态
+  introTitle: "**狮云**网站与服务状态监控"
   introMessage: 
   navbar:
-    - title: Status
-      href: /
+    - title: 狮云官网
+      href: https://app.cloudlion.me
     - title: 导航页
       href: https://fanqianghub.com
       
