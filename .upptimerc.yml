@@ -41,3 +41,6 @@ status-website:
       
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration
+NOTIFICATION_TELEGRAM = true
+NOTIFICATION_TELEGRAM_BOT_KEY = 6510052551:AAHa7E_XgoHcxkVhzaXmzsPRUHniVQ18Sw8
+NOTIFICATION_TELEGRAM_CHAT_ID = 1001821741740
