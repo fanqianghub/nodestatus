@@ -22,7 +22,7 @@ sites:
   - name: 入口节点 - 唯云莞港IPLC
     check: "tcp-ping"
     url: https://wywg.zx.cloudfast.vip
-    port: 443
+    port: 8443
 
 status-website:
   theme: light
