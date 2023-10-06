@@ -15,7 +15,6 @@ status-website:
   cname: status.fanqianghub.com
   logoUrl: https://fanqianghub.com/wp-content/uploads/2023/10/fqhub_logo_icon_round.png
   # baseUrl: /your-repo-name
-  logoUrl: https://fanqianghub.com/wp-content/uploads/2023/10/fqhub_logo_icon_round.png
   name: 翻墙中心 - 服务状态
   introTitle: "**翻墙中心**网站与服务状态监控"
   introMessage: 
