@@ -7,22 +7,30 @@ sites:
     url: https://app.cloudlion.me
   - name: 狮云 - 博客 lwjyj.com
     url: https://www.lwjyj.com
-  - name: 入口节点 - 上海移动 SHYD
+  - name: 节点 - 美国 US
     check: "tcp-ping"
-    url: https://shyd.zz.cloudfast.vip
-    port: 14899
-  - name: 入口节点 - 广州移动 GZYD
+    url: https://us.cloudfast.vip
+    port: 443
+  - name: 节点 - 英国 UK
     check: "tcp-ping"
-    url: https://gzyd.zz.cloudfast.vip
-    port: 34373
-  - name: 入口节点 - 北京联通 BJLT
+    url: https://uk.cloudfast.vip
+    port: 443
+  - name: 节点 - 日本 JP
     check: "tcp-ping"
-    url: https://bjlt.zz.cloudfast.vip
-    port: 10138
-  - name: 入口节点 - 唯云莞港IPLC wywg
+    url: https://jp.cloudfast.vip
+    port: 443
+  - name: 节点 - 新加坡 SG
     check: "tcp-ping"
-    url: https://wywg.zx.cloudfast.vip
-    port: 8443
+    url: https://sg.cloudfast.vip
+    port: 443
+    - name: 节点 - 香港 HK
+    check: "tcp-ping"
+    url: https://hk.cloudfast.vip
+    port: 443
+  - name: 节点 - 台湾 TW
+    check: "tcp-ping"
+    url: https://tw.cloudfast.vip
+    port: 443
 
 status-website:
   theme: light
