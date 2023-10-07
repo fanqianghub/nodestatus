@@ -7,30 +7,6 @@ sites:
     url: https://app.cloudlion.me
   - name: 狮云 - 博客 lwjyj.com
     url: https://www.lwjyj.com
-  - name: 节点 - 美国 US
-    check: "tcp-ping"
-    url: https://us.cloudfast.vip
-    port: 443
-  - name: 节点 - 英国 UK
-    check: "tcp-ping"
-    url: https://uk.cloudfast.vip
-    port: 443
-  - name: 节点 - 日本 JP
-    check: "tcp-ping"
-    url: https://jp.cloudfast.vip
-    port: 443
-  - name: 节点 - 新加坡 SG
-    check: "tcp-ping"
-    url: https://sg.cloudfast.vip
-    port: 443
-  - name: 节点 - 香港 HK
-    check: "tcp-ping"
-    url: https://hk.cloudfast.vip
-    port: 443
-  - name: 节点 - 台湾 TW
-    check: "tcp-ping"
-    url: https://tw.cloudfast.vip
-    port: 443
 
 status-website:
   theme: light
@@ -39,7 +15,7 @@ status-website:
   # baseUrl: /your-repo-name
   name: 狮云 - 服务状态
   introTitle: "**狮云**网站与服务状态监控"
-  introMessage: 
+  introMessage: 节点状态请访问[节点监控网站](https://stats.uptimerobot.com/5kK7BIg6zp)
   navbar:
     - title: 狮云官网
       href: https://app.cloudlion.me
