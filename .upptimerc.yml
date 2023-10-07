@@ -23,7 +23,7 @@ sites:
     check: "tcp-ping"
     url: https://sg.cloudfast.vip
     port: 443
-    - name: 节点 - 香港 HK
+  - name: 节点 - 香港 HK
     check: "tcp-ping"
     url: https://hk.cloudfast.vip
     port: 443
